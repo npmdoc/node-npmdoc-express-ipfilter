@@ -51,7 +51,7 @@
 
         href="https://github.com/baminteractive/express-ipfilter#readme"
 
-    >express-ipfilter (v0.2.3)</a>
+    >express-ipfilter (v0.2.4)</a>
 </h1>
 <h4>A light-weight IP address based filtering system</h4>
 <div class="apidocSectionDiv"><a
@@ -258,6 +258,10 @@
 
     if (iputil.isV6Format(ipAddress) &#x26;&#x26; ~ipAddress.indexOf(&#x27;::ffff&#x27;)) {
       ipAddress = ipAddress.split(&#x27;::ffff:&#x27;)[1];
+    }
+
+    if (iputil.isV4Format(ipAddress) &#x26;&#x26; ~ipAddress.indexOf(&#x27;:&#x27;)) {
+      ipAddress = ipAddress.split(&#x27;:&#x27;)[0];
     }
 
     return ipAddress;
