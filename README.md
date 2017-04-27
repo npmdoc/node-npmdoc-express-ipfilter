@@ -1,6 +1,6 @@
 # npmdoc-express-ipfilter
 
-#### api documentation for  [express-ipfilter (v0.2.4)](https://github.com/baminteractive/express-ipfilter#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-express-ipfilter.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-express-ipfilter) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-express-ipfilter.svg)](https://travis-ci.org/npmdoc/node-npmdoc-express-ipfilter)
+#### basic api documentation for  [express-ipfilter (v0.2.4)](https://github.com/baminteractive/express-ipfilter#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-express-ipfilter.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-express-ipfilter) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-express-ipfilter.svg)](https://travis-ci.org/npmdoc/node-npmdoc-express-ipfilter)
 
 #### A light-weight IP address based filtering system
 
@@ -82,7 +82,8 @@
         "push": "publish",
         "test": "mocha -R spec"
     },
-    "version": "0.2.4"
+    "version": "0.2.4",
+    "bin": {}
 }
 ```
 
