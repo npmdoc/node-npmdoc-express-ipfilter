@@ -454,7 +454,7 @@
 
 
 
-
+'use strict';
 
 module.exports = function IpDeniedError(message, extra) {
   Error.<span class="apidocCodeKeywordSpan">captureStackTrace</span>(this, this.constructor);
@@ -464,6 +464,7 @@ module.exports = function IpDeniedError(message, extra) {
 };
 
 require('util').inherits(module.exports, Error);
+//# sourceMappingURL=deniedError.js.map
 ...</pre></li>
     </ul>
 
